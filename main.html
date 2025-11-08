@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каитик</title>
+    <title>$Money$</title>
 </head>
 <body>
-    <center style="margin: auto 0 auto 0;">Каитик - лучший майнкрафт сервер  в КАИТ 20</center>
-    <p><b>[Kaitik.ru]</b> что бы туда попасть пройди <a href="https://www.clck.ru/3PyBMg" target="_blank">ФОРМУ</a> </p>
-<h1>О сервере</h1>
-<p>ip | kaitik.ru</p>
-<p>Версия | 1.21.8 </p>
-<p>Можно  без модов ,но лучше с simple voice.</p><br>
-<h2>Вскоре после проверки формы вы будете добавлены в *white list</h2>
-<p>*white list - список игроков которые могут зайти на сервер</p>
+    <div class="bord" id="bord">
+        <form >
+            <div>
+                <input type="number" placeholder="Ваше З/П" id="inpt"  >
+                <select name="fruits" id="val123">
+                    <option value="h" checked>В час</option>
+                    <option value="m">В минуту</option>
+                </select>
+            </div>
+            <input type="button" value="Старт" onclick="func()" id="btn">   
+        </form>
+    </div>
+    
+    <div id="timer">
+        <h1 id="df">0 ₽</h1>
+        <p>Вы бы могли заработать  за время которые вы были  на сайте </p>
+        <p>Вывод: не траьте своё драгоценное время сидя на тупых сайтов.(лучше платите мне).</p>
+    </div>
 </body>
-<footer>Подвал сайта</footer>
 </html>
