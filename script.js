@@ -12,7 +12,7 @@ function func(){
     }else if(sve == "m"){
         InV /= 60;
     }
-    summa +=InV
+    summa +=InV;
     function myTask(){
         const my = document.getElementById('df');
         my.innerHTML =summa+" ₽";
