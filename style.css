@@ -9,7 +9,12 @@ input{
     background-color:#283039;
     border-radius: 10px;
 }
-
+input:focus{
+    text-align: center;
+    color: white;
+    background-color:#1b3e64b4;
+    border-radius: 10px;
+}
 .bord{
     border-radius: 10px;
     width: max-content;
